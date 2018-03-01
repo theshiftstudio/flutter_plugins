@@ -1,3 +1,15 @@
+## 0.2.3
+
+* Enabled use in Swift projects.
+
+## 0.2.2+1
+
+* Updated description to clarify this is 'Google Analytics for Firebase'
+
+## 0.2.2
+
+* Moved to the io.flutter.plugins organization.
+
 ## 0.2.1
 
 * Simplified and upgraded Android project template to Android SDK 27.

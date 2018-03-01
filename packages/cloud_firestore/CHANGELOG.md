@@ -1,8 +1,26 @@
-## 0.3.0
+## 0.2.10
+* Fix Dart 2 type errors.
 
-* Add GeoPoint class
-* Allow for reading and writing DocumentReference, DateTime, and GeoPoint
-  values to and from Documents.
+## 0.2.9
+* Relax sdk upper bound constraint to  '<2.0.0' to allow 'edge' dart sdk use.
+
+## 0.2.8
+* Support for Query.getDocuments
+
+## 0.2.7
+
+* Add transaction support.
+
+## 0.2.6
+
+* Build fixes for iOS
+* Null checking in newly added Query methods
+
+## 0.2.5
+
+* Query can now have more than one orderBy field.
+* startAt, startAfter, endAt, and endBefore support
+* limit support
 
 ## 0.2.4
 

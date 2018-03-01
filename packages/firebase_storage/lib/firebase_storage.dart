@@ -47,6 +47,13 @@ class StorageReference {
       },
     );
   }
+
+  Future<Null> delete() {
+    return FirebaseStorage._channel.invokeMethod("StorageReference#delete",
+        <String, String>{'path': _pathComponents.join("/")});
+  }
+
+  String get path => _pathComponents.join('/');
 }
 
 class StorageUploadTask {

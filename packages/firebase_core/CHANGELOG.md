@@ -1,3 +1,15 @@
+## 0.0.7
+
+* Fixed Dart 2 type errors.
+
+## 0.0.6
+
+* Enabled use in Swift projects.
+
+## 0.0.5
+
+* Moved to the io.flutter.plugins org.
+
 ## 0.0.4
 
 * Fixed warnings from the Dart 2.0 analyzer.
