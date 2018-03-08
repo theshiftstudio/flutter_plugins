@@ -1,3 +1,11 @@
+## 0.2.12
+
+* Fix handling of `null` document snapshots (document not exists).
+* Add `DocumentSnapshot.exists`.
+
+## 0.2.11
+* Fix Dart 2 type errors.
+
 ## 0.2.10
 * Fix Dart 2 type errors.
 
